@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#area{
+    width: 100%;
+    height: 100%;
+}
+#area>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: calc( 100% / 7 ) px ;
+}
+.op{
+    background: greenyellow;
+}
+.sts,.stl{
+    background-color: black;
+}
+#area>.stl{
+    height: calc(200 / 7) px;
+}
